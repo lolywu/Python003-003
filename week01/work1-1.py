@@ -31,7 +31,7 @@ for tag in bs_info.find_all('p', attrs={'class': 'name'}):
         plan_date = selector.xpath('/html/body/div[3]/div/div[2]/div[1]/ul/li[3]/text()')
         #print(f'movietime: {plan_date}')
         mylist = [film_name, film_type, plan_date]
-        with open('./极客/1stWeek-requests-Scrapy/movie1.csv', 'a', newline='') as csvfile:
+        with open('./极客/1stWeek-requests-Scrapy/work-1-1-movie1.csv', 'a', newline='') as csvfile:
             writer  = csv.writer(csvfile)
             writer.writerow(mylist)
 
