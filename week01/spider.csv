@@ -1,0 +1,30 @@
+2020-08-24 00:02:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/344264> (referer: None)
+2020-08-24 00:02:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/344264>
+{'link': [' 动作 '], 'time': ['2017-07-27中国大陆上映'], 'title': ['Wolf Warrior 2']}
+2020-08-24 00:02:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/1211270> (referer: None)
+2020-08-24 00:02:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/1211270>
+{'link': [' 动画 '], 'time': ['2019-07-26中国大陆上映'], 'title': ['Ne Zha']}
+2020-08-24 00:02:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/6823> (referer: None)
+2020-08-24 00:02:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/6823>
+{'link': [' 喜剧 '], 'time': ['2014-10-24中国大陆上映'], 'title': ['A Chinese Odyssey']}
+2020-08-24 00:02:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/342068> (referer: None)
+2020-08-24 00:02:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/342068>
+{'link': [' 动画 '], 'time': ['2017-11-24中国大陆上映'], 'title': ['Coco']}
+2020-08-24 00:02:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/246286> (referer: None)
+2020-08-24 00:02:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/246286>
+{'link': [' 动画 '], 'time': ['2016-03-04中国大陆上映'], 'title': ['Zootopia']}
+2020-08-24 00:02:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/1218273> (referer: None)
+2020-08-24 00:02:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/1218273>
+{'link': [' 剧情 '],'time': ['2019-12-13中国大陆上映'],'title': ['Sheep Without a Shepherd']}
+2020-08-24 00:02:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/78341> (referer: None)
+2020-08-24 00:02:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/78341>
+{'link': [' 剧情 '], 'time': ['2020-08-02中国大陆重映'], 'title': ['Interstellar']}
+2020-08-24 00:02:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/1235560> (referer: None)
+2020-08-24 00:02:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/1235560>
+{'link': [' 爱情 '], 'time': ['2019-01-11中国大陆上映'], 'title': ['White Snake']}
+2020-08-24 00:02:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/1225993> (referer: None)
+2020-08-24 00:02:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/1225993>
+{'link': [' 动画 '], 'time': ['2020-08-14中国大陆重映'], 'title': ['Abominable']}
+2020-08-24 00:02:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/films/246082> (referer: None)
+2020-08-24 00:02:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/films/246082>
+{'link': [' 喜剧 '],'time': ['2015-09-30中国大陆上映'],'title': ['Goodbye Mr. Loser,Xia Luo Te Fan Nao']}
