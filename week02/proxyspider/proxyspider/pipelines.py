@@ -14,15 +14,19 @@ class ProxyspiderPipeline:
         self.cur = self.conn.cursor()
 
     def process_item(self, item, spider):
-        sqls = ['insert into iptables(ipaddr) VALUES(%s)']
-        self.cur.execute(sqls,(item['ipaddr']))
+        try:
+            sqls = ['insert into iptables(ipaddr) VALUES(%s)']
+            self.cur.execute(sqls,(item['ipaddr']))
         # ipaddr = item['ipaddr']
         # output = f'{ipaddr}'
         # with open('./ip_addr.txt', 'a+', encoding='utf-8') as ip_list:
         #     ip_list.write(output)
         #     ip_list.close()
         # return item
-        self.conn.commit()
+            self.conn.commit()
+        except:
+            self.conn.rollback()
+        self.conn.close()
 
     def closedb(self, spider):
         self.cur.close()
